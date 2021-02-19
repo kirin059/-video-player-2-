@@ -39,6 +39,7 @@ h1 {
 }
 
 .controls .btn {
+    margin-right: 10px;
     background: transparent;
     border-radius: 10px;
     cursor: pointer;
@@ -65,4 +66,9 @@ h1 {
 
 .btn:focus {
     outline: none;
+}
+
+input[type="range"] {
+    width: 100%;
+    background: transparent;
 }
