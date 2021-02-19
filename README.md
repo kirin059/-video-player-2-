@@ -1,5 +1,5 @@
 # video-player 만들기 (2)
-## html, javascript
+## javascript
 ---
 
 1️⃣ 비디오 정지 기능
