@@ -6,16 +6,15 @@ const stop = document.querySelector("#stop");
 const progress = document.querySelector(".progress");
 const timestamp = document.querySelector("#timestamp");
 
-// 재생버튼 누르면 play, 한번 더 누르면 paused
+// 비디오 화면 누르면 play, 한번 더 누르면 paused
 function toggleVideoBtnStatus(e) {
     if (video.paused) {
         video.play();
     } else {
-        video.paused();
+        video.pause();
     }
 }
-play.addEventListener("click", toggleVideoBtnStatus);
-play.addEventListener("click", toggleVideoBtnStatus);
+video.addEventListener("click", toggleVideoBtnStatus);
 
 // 비디오 화면 누르면 play, 한번 더 누르면 paused
 function toggleVideoStatus(e) {
